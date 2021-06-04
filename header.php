@@ -48,8 +48,6 @@
 			<button class = "btn"><i class = "fas fa-heart"></i></button>
 			<?=template_header('Home')?>
 
-			<a  href = "account.php" style = "color: #FFFFFF; "><button class = "btn"> My Account </a></button>
-
 		</div>
 	
 	</div>
