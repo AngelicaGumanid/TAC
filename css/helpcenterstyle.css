@@ -1,0 +1,183 @@
+/* SIDE NAVBAR */
+
+.sidenav {
+  height: 580px;
+  width: 300px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #C4C4C4;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  font-size:18px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* WRAPPER */
+
+.wrapper {
+	padding-top: 25px;
+  margin: 0 auto;
+  height: 1400px;
+  width: 1105px;
+  background: transparent;
+}
+
+.sidebar {
+  background-color: #ddd;
+  float: left;
+  width: 300px;
+  height: 100px;
+}
+
+.main {
+  float: right;
+  background-color: transparent;
+  width: 805px;
+  height: 1400px;
+  padding-left: 20px;
+}
+
+.main a{
+	color: #000000;
+}
+
+.dot {
+
+  height: 80px;
+  width: 85px;
+  padding-bottom: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.dot2 {
+
+  height: 80px;
+  width: 85px;
+  padding-bottom: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 100px;
+
+}
+.promise {
+    margin-left: 100px;
+}
+hr.line {
+  border-top: 1px dotted  #000000;
+}
+/*fORM*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #C4C4C4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  color: #000000;
+}
+
+.recbox{
+    background-color: #C4C4C4;
+    padding:200px;
+
+}
+.partners{
+    column-count: 2;
+}
+.partnersdescription{
+    column-count: 2;
+}
+.partnerbox{
+    background-color: #E5E5E5;
+    margin-right: 20px;
+}
+
+
+/* Column */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* COLUMN BOTTOM */
+
+.contentt{
+	padding: 50px 0;
+	background-color: #C4C4C4;
+}
+
+.center {
+  text-align:center;
+}
+
+.center p{
+  font-size: 20px;
+}
+
+.divv {
+	padding-top: 10px;
+	width: 350px;
+	height: 50px;
+	text-align: center;
+	background-color: #C4C4C4;
+}
+
+.divv h4{
+	font-size:18px
+}
+.divv p{
+	padding-top: 15px;
+	text-align: left;
+	font-size:15px;
+}
